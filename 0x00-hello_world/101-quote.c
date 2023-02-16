@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: 'the program prints a line without using printf or puts functions'
+ * Description: 'the program prints a line using fputs function'
  *
  * Return: Always 1 (Success)
  */
