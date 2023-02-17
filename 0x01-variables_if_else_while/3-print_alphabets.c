@@ -14,7 +14,7 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 		putchar(lower_char[i]);
-	for (i=0; i < 26; i++)
+	for (i = 0; i < 26; i++)
 		putchar(upper_char[i]);
 	putchar('\n');
 	return (0);
