@@ -8,11 +8,10 @@
  */
 int main(void)
 {
-	char char_var[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
-
-	for (i = 0; i < 26; i++)
-		putchar(char_var[i]);
+	char var = 'a';
+	
+	while (var <= 'z')
+		putchar(var++);
 	putchar('\n');
 	return (0);
 }
