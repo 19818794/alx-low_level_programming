@@ -8,14 +8,13 @@
  */
 int main(void)
 {
-	char lower_char[26] = "abcdefghijklmnopqrstuvwxyz";
-	char upper_char[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int i;
+	char lower_char = 'a';
+	char upper_char = 'A';
 
-	for (i = 0; i < 26; i++)
-		putchar(lower_char[i]);
-	for (i = 0; i < 26; i++)
-		putchar(upper_char[i]);
+	while (lower_char <= 'z')
+		putchar(lower_char++);
+	while (upper_char <= 'Z')
+		putchar(upper_char++);
 	putchar('\n');
 	return (0);
 }
