@@ -20,7 +20,7 @@ int main(void)
 		{
 			m = (j / 10 + '0');
 			n = (j % 10 + '0');
-			if(i < j)
+			if (i < j)
 			{
 				putchar(k);
 				putchar(l);
