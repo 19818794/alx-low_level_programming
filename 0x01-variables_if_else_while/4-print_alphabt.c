@@ -8,11 +8,13 @@
  */
 int main(void)
 {
-	char lower_char[24] = "abcdfghijklmnoprstuvwxyz";
-	int i;
+	char lower_char = 'a';
 
-	for (i = 0; i < 24; i++)
-		putchar(lower_char[i]);
+	while (lower_char <= 'z')
+	{
+		if (lower_char != 'e' || lower_char != 'q')
+			putchar(lower_char++);
+	}
 	putchar('\n');
 	return (0);
 }
