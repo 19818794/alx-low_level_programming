@@ -1,5 +1,5 @@
 # alx-low_level_programming
-#General
+# General
 
 Why C programming is awesome
 
