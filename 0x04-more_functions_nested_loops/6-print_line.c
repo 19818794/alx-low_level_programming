@@ -2,6 +2,7 @@
 
 /**
  * print_line - draws a straight line in the terminal.
+ * @n: number times to print a straight
  *
  * Return: n times of _ followed by a new line
  */
