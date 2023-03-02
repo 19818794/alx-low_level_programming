@@ -8,45 +8,20 @@
  */
 char *cap_string(char *str)
 {
-	char *ptr = str;
-	bool cond;
+	int i = 0;
 
-	while (*ptr != '\0')
+	while (str[i] != '\0')
 	{
-		cond = (*ptr == 32 || *ptr == 9 || *ptr == 10 || *ptr == 44 ||
-		*ptr == 59 || *ptr == 46 || *ptr == 33 || *ptr == 63 ||
-		*ptr == 34 || *ptr == 40 || *ptr == 41 || *ptr == 123 ||
-		*ptr == 125);
-		if (cond)
-		{
-			ptr++;
-			cond = (*ptr == 32 || *ptr == 9 || *ptr == 10 ||
-			*ptr == 44 || *ptr == 59 || *ptr == 46 || *ptr == 33 ||
-			*ptr == 63 || *ptr == 34 || *ptr == 40 || *ptr == 41 ||
-			*ptr == 123 || *ptr == 125);
-			if (cond)
-			{
-				ptr++;
-				cond = (*ptr == 32 || *ptr == 9 || *ptr == 10 ||
-				*ptr == 44 || *ptr == 59 || *ptr == 46 ||
-				*ptr == 33 || *ptr == 63 || *ptr == 34 ||
-				*ptr == 40 || *ptr == 41 || *ptr == 123 ||
-				*ptr == 125);
-				if (cond)
-				{
-					ptr++;
-				}
-			}
-			if (*ptr >= 97 && *ptr <= 122)
-			{
-				*ptr = *ptr - 32;
-				ptr++;
-			}
-		}
-		else
-		{
-			ptr++;
-		}
+		while (!(str[i] >= 97 && str[i] <= 122))
+			i++;
+
+		if (str[i - 1] == 32 || str[i - 1] == 9 || str[i - 1] == 10
+		|| str[i - 1] == 44 || str[i - 1] == 59 || str[i - 1] == 46
+		|| str[i - 1] == 33 || str[i - 1] == 63 || str[i - 1] == 34
+		|| str[i - 1] == 40 || str[i - 1] == 41 || str[i - 1] == 123
+		|| str[i - 1] == 125 || i == 0)
+			str[i] -= 32;
+		i++;
 	}
 	return (str);
 }
