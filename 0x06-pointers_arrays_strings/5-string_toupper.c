@@ -7,11 +7,14 @@
  */
 char *string_toupper(char *str)
 {
-	while (*str != '\0')
+	char *ptr;
+
+	ptr = str;
+	while (*ptr != '\0')
 	{
-		if (*str >= 97 && *str <= 122)
-			*str = *str - 32;
-		str++;
+		if (*ptr >= 97 && *ptr <= 122)
+			*ptr = *ptr - 32;
+		ptr++;
 	}
 	return (str);
 }
