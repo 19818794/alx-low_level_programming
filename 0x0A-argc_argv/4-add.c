@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 }
 
 /**
- * isdigit - check a string if contain digits or not
+ * check - check a string if contain digits or not
  * @s: string to check
  *
  * Return: 0 if not digit, 1 if it is a digit
