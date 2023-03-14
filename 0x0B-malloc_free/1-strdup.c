@@ -30,7 +30,7 @@ char *_strdup(char *str)
  *
  * Return: lenght
  */
-unsigned int _str_len(char * str)
+unsigned int _str_len(char *str)
 {
 	unsigned int len = 0;
 
@@ -45,7 +45,7 @@ unsigned int _str_len(char * str)
  *
  * Return: a ponter dest
  */
-char * _str_cpy(char * str, char * dest)
+char *_str_cpy(char *str, char *dest)
 {
 	int i = 0;
 
