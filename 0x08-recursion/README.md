@@ -1,0 +1,29 @@
+# C - Recursion
+
+The aim is to learn in what situations we should or shouldn't implement recursion and how to implement it.
+
+# Technologies
+
+tested on Ubuntu 20.04 LTS.
+
+C files are complied using gcc 9.4.0.
+
+C files are written according to the GNU C89 dialect, which includes some extensions beyond the standard C89.
+
+# Files
+
+All of the following files are programs written in C:
+
+| Filename                  | Description
+| ------------------------- | ----------------------------------------------------------------------------------------------------- 
+| `0-puts_recursion.c`      | prints a string, followed by a new line.
+| `1-print_rev_recursion.c` | prints a string in reverse.
+| `2-strlen_recursion.c`    | returns the length of a string.
+| `3-factorial.c`           | returns the factorial of a given number.
+| `4-pow_recursion.c`       | returns the value of x raised to the power of y.
+| `5-sqrt_recursion.c`      | returns the natural square root of a number.
+| `6-is_prime_number.c`     | returns 1 if the input integer is a prime number, otherwise return 0.
+| `100-is_palindrome.c`     | returns 1 if a string is a palindrome and 0 if not.
+| `101-wildcmp.c`           | compares two strings and returns 1 if the strings can be considered identical, otherwise return 0.
+| `main.h`                  | header file includes the prototypes of all functions.
+| `_putchar.c`              | writes a character to stdout (we will not push it every time. Kindly check project `0x02-functions_nested_loops`).
