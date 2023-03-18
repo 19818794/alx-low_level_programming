@@ -15,7 +15,7 @@ C files are written according to the GNU C89 dialect, which includes some extens
 All of the following files are programs written in C or shell except `betty`:
 
 | Filename         | Description
-| ---------------- |---------------------------------------------------------------------------------------------------------------:
+|:----------------:| -------------------------------------------------------------------------------------------------------------
 | `0-preprocessor` | this shell script runs a C file through the preprocessor and save the result into another file.
 | `1-compiler`     | this shell script compiles a C file but does not link.
 | `2-assembler`    | this shell script generates the assembly code of a C code and save it in an output file.
