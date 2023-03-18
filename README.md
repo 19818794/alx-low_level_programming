@@ -1,7 +1,6 @@
 # alx-low_level_programming
-C Language.
 
-This Project was done during Full Stack Software Engineering studies at ALX school.
+This C Project was done during Full Stack Software Engineering studies at ALX school.
 
 # General
 
@@ -62,3 +61,45 @@ How to print variables using printf
 What is the ASCII character set
 
 What is the purpose of the gcc flags -m32 and -m64
+
+# Functions, nested loops
+
+What are nested loops and how to use them
+
+What is a function and how do you use functions
+
+What is the difference between a declaration and a definition of a function
+
+What is a prototype
+
+Scope of variables
+
+What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89
+
+What are header files and how to to use them with #include
+
+# Debugging
+
+What is debugging
+
+What are some methods of debugging manually
+
+How to read the error messages
+
+# Pointers, arrays and strings
+
+What are pointers and how to use them
+
+What are arrays and how to use them
+
+What are the differences between pointers and arrays
+
+How to use strings and how to manipulate them
+
+Scope of variables
+
+What are pointers to pointers and how to use them
+
+What are multidimensional arrays and how to use them
+
+What are the most common C standard library functions to manipulate strings
