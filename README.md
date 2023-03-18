@@ -103,3 +103,19 @@ What are pointers to pointers and how to use them
 What are multidimensional arrays and how to use them
 
 What are the most common C standard library functions to manipulate strings
+
+# Recursion
+
+What is recursion
+
+How to implement recursion
+
+In what situations you should implement recursion
+
+In what situations you shouldn’t implement recursion
+
+# Static libraries
+
+What is a static library, how does it work, how to create one, and how to use it
+
+Basic usage of ar, ranlib, nm
