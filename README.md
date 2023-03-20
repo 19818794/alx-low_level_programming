@@ -141,3 +141,11 @@ How to use valgrind to check for memory leak
 How to use the exit function
 
 What are the functions calloc and realloc from the standard library and how to use them
+
+# C - Preprocessor
+
+What are macros and how to use them
+
+What are the most common predefined macros
+
+How to include guard your header files
