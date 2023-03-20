@@ -149,3 +149,9 @@ What are macros and how to use them
 What are the most common predefined macros
 
 How to include guard your header files
+
+# C - Structures, typedef
+
+What are structures, when, why and how to use them
+
+How to use typedef
