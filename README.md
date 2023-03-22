@@ -142,7 +142,7 @@ How to use the exit function
 
 What are the functions calloc and realloc from the standard library and how to use them
 
-# C - Preprocessor
+# Preprocessor
 
 What are macros and how to use them
 
@@ -150,8 +150,16 @@ What are the most common predefined macros
 
 How to include guard your header files
 
-# C - Structures, typedef
+# Structures, typedef
 
 What are structures, when, why and how to use them
 
 How to use typedef
+
+# Function pointers
+
+What are function pointers and how to use them
+
+What does a function pointer exactly hold
+
+Where does a function pointer point to in the virtual memory
