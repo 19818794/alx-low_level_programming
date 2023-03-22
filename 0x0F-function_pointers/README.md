@@ -24,3 +24,4 @@ All of the following files are programs written in C:
 | `3-op_functions.c`    | contains 5 functions for the 5 operations.
 | `3-get_op_func.c`     | contains the function that selects the correct function to perform the operation asked by the user.
 | `3-calc.h`            | contains all the function prototypes and data structures used by the program.
+| `100-main_opcodes.c`  | prints the opcodes of its own main function.
