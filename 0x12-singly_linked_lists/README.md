@@ -21,4 +21,5 @@ All of the following files are programs written in C:
 | `2-add_node.c`     | adds a new node at the beginning of a `list_t` list.
 | `3-add_node_end.c` | adds a new node at the end of a `list_t` list.
 | `4-free_list.c`    | frees a `list_t` list.
+| `100-first.c`      | prints a string before the main function is executed.
 | `lists.h`	     | header file includes libraries, structures, and the prototypes of all functions.
