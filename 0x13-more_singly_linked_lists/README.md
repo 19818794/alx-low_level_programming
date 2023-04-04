@@ -18,4 +18,5 @@ All of the following files are programs written in C:
 | -------------------------- | -------------------------------------------------------------------------------------------------- 
 | `0-print_listint.c`        | prints all the elements of a `listint_t` list.
 | `1-listint_len.c`          | counts the number of elements in a linked `listint_t` list.
+| `2-add_nodeint.c`          | adds a new node at the beginning of a `listint_t` list.
 | `lists.h`	             | header file includes libraries, structures, and the prototypes of all functions.
