@@ -28,4 +28,5 @@ All of the following files are programs written in C:
 | `9-insert_nodeint.c`       | inserts a new node at a given position.
 | `10-delete_nodeint.c`      | deletes the node at index of a linked list.
 | `100-reverse_listint.c`    | reverses a `listint_t` linked list.
+| `101-print_listint_safe.c` | prints a `listint_t` linked list.
 | `lists.h`	             | header file includes libraries, structures, and the prototypes of all functions.
