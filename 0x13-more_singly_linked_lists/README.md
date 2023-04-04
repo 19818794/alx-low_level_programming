@@ -24,4 +24,5 @@ All of the following files are programs written in C:
 | `5-free_listint2.c`        | frees a `listint_t` list and sets the head to NULL.
 | `6-pop_listint.c`          | deletes the head node of a `listint_t` linked list.
 | `7-get_nodeint.c`          | gets the nth node of a `listint_t` linked list.
+| `8-sum_listint.c`          | calculates the sum of all the data (n) of a linked list.
 | `lists.h`	             | header file includes libraries, structures, and the prototypes of all functions.
