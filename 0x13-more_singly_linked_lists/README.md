@@ -30,4 +30,5 @@ All of the following files are programs written in C:
 | `100-reverse_listint.c`    | reverses a `listint_t` linked list.
 | `101-print_listint_safe.c` | prints a `listint_t` linked list.
 | `102-free_listint_safe.c`  | frees a `listint_t` list safely, and sets the head to NULL.
+| `103-find_loop.c`          | finds the loop in a linked list.
 | `lists.h`	             | header file includes libraries, structures, and the prototypes of all functions.
