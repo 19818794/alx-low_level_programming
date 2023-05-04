@@ -17,5 +17,7 @@ All of the following files are programs written in C:
 | Filename               | Description
 | ---------------------- | -------------------------------------------------------------------------------------------------- 
 | `0-binary_to_uint.c`   | converts a binary number to an unsigned int.
+| `1-print_binary.c`     | prints the binary representation of a number.
+| `_putchar.c`           | writes a character to stdout (we will not push it every time. Kindly check project 0x02-functions_nested_loops).
 | `main.h`	         | header file includes libraries and the prototypes of all functions.
 
