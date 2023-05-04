@@ -177,3 +177,7 @@ Why and how to use the const type qualifier
 When and why using linked lists vs arrays
 
 How to build and use linked lists
+
+# Bit manipulation
+
+How to manipulate bits and use bitwise operators
