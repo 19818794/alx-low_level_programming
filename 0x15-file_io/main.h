@@ -11,6 +11,8 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <string.h>
+#include <sys/stat.h>
+#include <elf.h>
 
 #define BUFFER_SIZE 1024
 
@@ -20,5 +22,9 @@ int append_text_to_file(const char *filename, char *text_content);
 void _display_error_p(char *message, char *var, int n);
 void _display_error_i(char *message, int var, int n);
 void _close_error(int var, char *buffer);
+void _display_elf_header(char *filename);
+void _print_elf_osabi(Elf64_Ehdr *elf_header);
+void _print_elf_type(Elf64_Ehdr *elf_header, int endian_val);
+void _print_elf_entry(Elf64_Ehdr *elf_header, int mode, int endian_val);
 
 #endif

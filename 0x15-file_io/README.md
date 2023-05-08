@@ -20,5 +20,6 @@ All of the following files are programs written in C:
 | `1-create_file.c`         | creates a file.
 | `2-append_text_to_file.c` | appends text at the end of a file.
 | `3-cp.c`                  | copies the content of a file to another file.
+| `100-elf_header.c`        | displays the information contained in the ELF header at the start of an ELF file.
 | `main.h`	            | header file includes libraries and the prototypes of all functions.
 
