@@ -199,3 +199,9 @@ What are file permissions, and how to set them when creating a file with the ope
 What is a system call
 
 What is the difference between a function and a system call
+
+# Doubly linked lists
+
+What is a doubly linked list
+
+How to use doubly linked lists

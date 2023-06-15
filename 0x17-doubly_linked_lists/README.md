@@ -1,0 +1,19 @@
+# Doubly linked lists
+
+The aim is to learn about the doubly linked list and how to use it.
+
+# Technologies
+
+tested on Ubuntu 20.04 LTS.
+
+C files are complied using gcc 9.4.0.
+
+C files are written according to the GNU C89 dialect, which includes some extensions beyond the standard C89.
+
+# Files
+
+All of the following files are programs written in C:
+
+| Filename                  | Description
+| ------------------------- | ------------------------------------------------------------------------------------ 
+| `0-print_dlistint.c` 	    | prints all the elements of a dlistint_t list.
