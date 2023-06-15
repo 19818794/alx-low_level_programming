@@ -25,3 +25,4 @@ All of the following files are programs written in C:
 | `6-sum_dlistint.c`        | returns the sum of all the data (n) of a dlistint_t linked list.
 | `7-insert_dnodeint.c`     | inserts a new node at a given position.
 | `8-delete_dnodeint.c`     | deletes the node at given index of a dlistint_t linked list.
+| `102-result`              | finds the largest palindrome made from the product of two 3-digit numbers.
