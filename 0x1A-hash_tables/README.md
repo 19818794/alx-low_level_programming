@@ -19,3 +19,4 @@ All of the following files are programs written in C and Shell:
 | `0-hash_table_create.c` | creates a hash table.
 | `hash_tables.h`         | header file includes libraries, structures, and the prototypes of all functions.
 | `1-djb2.c`              | creates a hash function implementing the djb2 algorithm.
+| `2-key_index.c`         | gives you the index of a key.
